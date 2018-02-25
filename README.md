@@ -56,92 +56,17 @@
 
 * 所有请求参数组合
 
-<table style="text-align:center;">
-	<tr>
-		<td>优先级</td>
-		<td>名称</td>
-		<td>类型</td>
-		<td></td>
-		<td>组合</td>
-		<td></td>
-	</tr>
-	<tr>
-		<td>1</td>
-		<td>ssid</td>
-		<td>string</td>
-		<td>√</td>
-		<td>√</td>
-		<td></td>
-	</tr>
-	<tr>
-		<td>2</td>
-		<td>reset</td>
-		<td>string</td>
-		<td></td>
-		<td>√</td>
-		<td></td>
-	</tr>
-	<tr>
-		<td>2</td>
-		<td>auth</td>
-		<td>string</td>
-		<td></td>
-		<td>√</td>
-		<td></td>
-	</tr>
-	<tr>
-		<td>2</td>
-		<td>old</td>
-		<td>string</td>
-		<td></td>
-		<td>√</td>
-		<td></td>
-	</tr>
-	<tr>
-		<td>2</td>
-		<td>new</td>
-		<td>string</td>
-		<td></td>
-		<td>√</td>
-		<td></td>
-	</tr>
-	<tr>
-		<td>3</td>
-		<td>where</td>
-		<td>string</td>
-		<td></td>
-		<td></td>
-		<td>√</td>
-	</tr>
-	<tr>
-		<td>3</td>
-		<td>whval</td>
-		<td>string</td>
-		<td></td>
-		<td></td>
-		<td>√</td>
-	</tr>
-	<tr>
-		<td></td>
-		<td>mode</td>
-		<td></td>
-		<td>view</td>
-		<td>reset</td>
-		<td>search</td>
-	</tr>
-	<tr>
-		<td></td>
-		<td>功能</td>
-		<td></td>
-		<td>查看</td>
-		<td>修改</td>
-		<td>搜索</td>
-	</tr>
-	<tr>
-		<td></td>
-	</tr>
-</table>
-
+|  优先级  |  名称  |  类型  ||         组合         ||
+| :-----: | :----: | :---: | :----: | :----: | :----: |
+|   1   | ssid   | string  |   √    |        |        |
+|   2   | reset  | string  |        |   √    |        |
+|   2   | auth   | string  |        |   √    |        |
+|   2   | old    | string  |        |   √    |        |
+|   2   | new    | string  |        |   √    |        |
+|   3   | where  | string  |        |        |   √    |
+|   3   | whval  | string  |        |        |   √    |
+|| mode                   || view   | reset  | search |
+|| 功能                   ||  查看   | 修改   | 搜索   |
 
 ## 根据sessionID获取session内容
 
