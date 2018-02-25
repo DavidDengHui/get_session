@@ -1,6 +1,16 @@
 # get_session
 
-这是获取储存在服务器SESSION内容的API，使用PHP编写
+这是获取储存在服务器SESSION内容的API，使用PHP编写。
+
+肯定有很多人想问，这有什么用？
+
+其实确实也没什么用，只是我自己在做web项目的时候，使用了session，调试的过程中想要看到session中实时的数据储存了些什么？是否储存正确？
+
+于是这个API就诞生了，主要也就是用来调试的吧！在浏览器里面安装一个名为 _`JSON_handle`_ 的插件，可以非常美观地将显示在浏览器上的json转为树形，方便查看。
+
+都知道调试网页可以用浏览器的检查源代码，里面的console功能很强大，可以在里面查看当前的sessionID，刚好可以配合这个API使用。
+
+😜Enjoy yourself! 😝
 
 -----
 
@@ -56,164 +66,170 @@
 
 * 所有请求参数组合
 
-	<table style="text-align:center;">
+	<table>
 	<tr>
-		<th>优先级</th>
-		<th>名称</th>
-		<th>类型</th>
-		<th colspan="3">组合</th>
+		<th style="text-align:center;text-valign:center;">优先级</th>
+		<th style="text-align:center;text-valign:center;">名称</th>
+		<th style="text-align:center;text-valign:center;">类型</th>
+		<th style="text-align:center;text-valign:center;" colspan="3">组合</th>
 	</tr>
 	<tr>
-		<td>1</td>
-		<td>ssid</td>
-		<td>string</td>
-		<td>√</td>
-		<td>√</td>
-		<td></td>
+		<td style="text-align:center;text-valign:center;">1</td>
+		<td style="text-align:center;text-valign:center;">ssid</td>
+		<td style="text-align:center;text-valign:center;">string</td>
+		<td style="text-align:center;text-valign:center;">√</td>
+		<td style="text-align:center;text-valign:center;">√</td>
+		<td style="text-align:center;text-valign:center;"></td>
 	</tr>
 	<tr>
-		<td>2</td>
-		<td>reset</td>
-		<td>string</td>
-		<td></td>
-		<td>√</td>
-		<td></td>
+		<td style="text-align:center;text-valign:center;">2</td>
+		<td style="text-align:center;text-valign:center;">reset</td>
+		<td style="text-align:center;text-valign:center;">string</td>
+		<td style="text-align:center;text-valign:center;"></td>
+		<td style="text-align:center;text-valign:center;">√</td>
+		<td style="text-align:center;text-valign:center;"></td>
 	</tr>
 	<tr>
-		<td>2</td>
-		<td>auth</td>
-		<td>string</td>
-		<td></td>
-		<td>√</td>
-		<td></td>
+		<td style="text-align:center;text-valign:center;">2</td>
+		<td style="text-align:center;text-valign:center;">auth</td>
+		<td style="text-align:center;text-valign:center;">string</td>
+		<td style="text-align:center;text-valign:center;"></td>
+		<td style="text-align:center;text-valign:center;">√</td>
+		<td style="text-align:center;text-valign:center;"></td>
 	</tr>
 	<tr>
-		<td>2</td>
-		<td>old</td>
-		<td>string</td>
-		<td></td>
-		<td>√</td>
-		<td></td>
+		<td style="text-align:center;text-valign:center;">2</td>
+		<td style="text-align:center;text-valign:center;">old</td>
+		<td style="text-align:center;text-valign:center;">string</td>
+		<td style="text-align:center;text-valign:center;"></td>
+		<td style="text-align:center;text-valign:center;">√</td>
+		<td style="text-align:center;text-valign:center;"></td>
 	</tr>
 	<tr>
-		<td>2</td>
-		<td>new</td>
-		<td>string</td>
-		<td></td>
-		<td>√</td>
-		<td></td>
+		<td style="text-align:center;text-valign:center;">2</td>
+		<td style="text-align:center;text-valign:center;">new</td>
+		<td style="text-align:center;text-valign:center;">string</td>
+		<td style="text-align:center;text-valign:center;"></td>
+		<td style="text-align:center;text-valign:center;">√</td>
+		<td style="text-align:center;text-valign:center;"></td>
 	</tr>
 	<tr>
-		<td>3</td>
-		<td>where</td>
-		<td>string</td>
-		<td></td>
-		<td></td>
-		<td>√</td>
+		<td style="text-align:center;text-valign:center;">3</td>
+		<td style="text-align:center;text-valign:center;">where</td>
+		<td style="text-align:center;text-valign:center;">string</td>
+		<td style="text-align:center;text-valign:center;"></td>
+		<td style="text-align:center;text-valign:center;"></td>
+		<td style="text-align:center;text-valign:center;">√</td>
 	</tr>
 	<tr>
-		<td>3</td>
-		<td>whval</td>
-		<td>string</td>
-		<td></td>
-		<td></td>
-		<td>√</td>
+		<td style="text-align:center;text-valign:center;">3</td>
+		<td style="text-align:center;text-valign:center;">whval</td>
+		<td style="text-align:center;text-valign:center;">string</td>
+		<td style="text-align:center;text-valign:center;"></td>
+		<td style="text-align:center;text-valign:center;"></td>
+		<td style="text-align:center;text-valign:center;">√</td>
 	</tr>
 	<tr>
-		<td colspan="3"><b>mode</b></td>
-		<td>view</td>
-		<td>reset</td>
-		<td>search</td>
+		<td style="text-align:center;text-valign:center;" colspan="3"><b>mode</b></td>
+		<td style="text-align:center;text-valign:center;">view</td>
+		<td style="text-align:center;text-valign:center;">reset</td>
+		<td style="text-align:center;text-valign:center;">search</td>
 	</tr>
 	<tr>
-		<td colspan="3"><b>功能</b></td>
-		<td>查看</td>
-		<td>修改</td>
-		<td>搜索</td>
+		<td style="text-align:center;text-valign:center;" colspan="3"><b>功能</b></td>
+		<td style="text-align:center;text-valign:center;">查看</td>
+		<td style="text-align:center;text-valign:center;">修改</td>
+		<td style="text-align:center;text-valign:center;">搜索</td>
 	</tr>
 	</table>
 
 ## 根据sessionID获取session内容
 
-> * 请求示例(PHP)
->
-> ```PHP
-> <?php
->    $host = "https://sess.covear.top"; //API的域名
->    $path = "/sess.php"; //请求文件地址
->    $method = "GET"; //请求方式
->    $ssid = "u5l6pqvgpo1o43v8ksud6pq8me" //要查看的session的sessionID
->    $querys = "ssid=".$ssid;
->    $url = $host . $path . "?" . $querys;
->    $curl = curl_init();
->    curl_setopt($curl, CURLOPT_CUSTOMREQUEST, $method);
->    curl_setopt($curl, CURLOPT_URL, $url);
->    curl_setopt($curl, CURLOPT_FAILONERROR, false);
->    curl_setopt($curl, CURLOPT_RETURNTRANSFER, true);
->    curl_setopt($curl, CURLOPT_HEADER, false);
->    if (1 == strpos("$".$host, "https://")) {
->        curl_setopt($curl, CURLOPT_SSL_VERIFYPEER, false);
->        curl_setopt($curl, CURLOPT_SSL_VERIFYHOST, false);
->    }
->	$data = curl_exec($curl); //获取返回的json数据
->	var_dump($data);
->?>
-> ```
->
-> * 正常返回示例
->
-> ```json
->{
->    "status": "success",
->    "mode": "view",
->    "ssid": "u5l6pqvgpo1o43v8ksud6pq8me",
->    "where": {
->        "key": null,
->        "value": null
->    },
->    "reset": {
->        "key": null,
->        "old": null,
->        "new": null
->    },
->    "data": {
->        "0": {
->            "tms_sid": [
->                "201730403122"
->            ],
->            "session_id": "u5l6pqvgpo1o43v8ksud6pq8me"
->        },
->        "size": 1
->    }
->}
-> ```
->
-> * 错误返回示例
->
-> ```json
->{
->    "status": "error",
->    "mode": "view",
->    "ssid": "u5l6pqvgpo1o43v8ksud6pq8me",
->    "where": {
->        "key": null,
->        "value": null
->    },
->    "reset": {
->        "key": null,
->        "old": null,
->        "new": null
->    },
->    "data": {
->        "size": 0
->    }
->}
-> ```
+* 请求示例(PHP)
 
-## 根据键名和键值搜索session内容
+	```php
+	<?php
+		$host = "https://sess.covear.top"; //API的域名
+		$path = "/sess.php"; //请求文件地址
+		$method = "GET"; //请求方式
+		$ssid = "u5l6pqvgpo1o43v8ksud6pq8me" //要查看的session的sessionID
+		$querys = "ssid=".$ssid;
+		$url = $host . $path . "?" . $querys;
+		$curl = curl_init();
+		curl_setopt($curl, CURLOPT_CUSTOMREQUEST, $method);
+		curl_setopt($curl, CURLOPT_URL, $url);
+		curl_setopt($curl, CURLOPT_FAILONERROR, false);
+		curl_setopt($curl, CURLOPT_RETURNTRANSFER, true);
+		curl_setopt($curl, CURLOPT_HEADER, false);
+		if (1 == strpos("$".$host, "https://")) {
+			curl_setopt($curl, CURLOPT_SSL_VERIFYPEER, false);
+			curl_setopt($curl, CURLOPT_SSL_VERIFYHOST, false);
+		}
+		$data = curl_exec($curl); //获取返回的json数据
+		var_dump($data);
+	?>
+	```
 
+* 请求示例(url访问)
+	
+	[`https://sess.covear.top/sess.php?ssid=u5l6pqvgpo1o43v8ksud6pq8me`](https://sess.covear.top/sess.php?ssid=u5l6pqvgpo1o43v8ksud6pq8me)
+
+
+* 正常返回示例
+
+	```json
+	{
+		"status": "success",
+		"mode": "view",
+		"ssid": "u5l6pqvgpo1o43v8ksud6pq8me",
+		"where": {
+			"key": null,
+			"value": null
+		},
+		"reset": {
+			"key": null,
+			"old": null,
+			"new": null
+		},
+		"data": {
+			"0": {
+				"tms_sid": [
+					"201730403122"
+				],
+				"session_id": "u5l6pqvgpo1o43v8ksud6pq8me"
+			},
+			"size": 1
+		}
+	}
+	```
+
+* 错误返回示例
+
+	```json
+	{
+		"status": "error",
+		"mode": "view",
+		"ssid": "u5l6pqvgpo1o43v8ksud6pq8me",
+		"where": {
+			"key": null,
+			"value": null
+		},
+		"reset": {
+			"key": null,
+			"old": null,
+			"new": null
+		},
+		"data": {
+			"size": 0
+		}
+	}
+	```
 
 ## 强行更改session的指定部分内容
+
+
+
+## 根据键名和键值搜索session内容
 
 
 Copyright © 2017-2018 David Deng
