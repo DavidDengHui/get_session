@@ -44,9 +44,10 @@ if ( !empty($code->ssid) ) {
 		if ( !isset($temp[$code->reset['key']]) ) {
 			goto FINISH;
 		}
-		if ( !is_OK($code->reset['old'], $temp[$code->reset['key']]) ) {
+		/*if ( !is_OK($code->reset['old'], $temp[$code->reset['key']]) ) {
+			$code->reset['old'] = null;
 			goto FINISH;
-		}
+		}*/
 		resetSESS($code->ssid, $code->reset['key'], $code->reset['old'], $code->reset['new']);
 		$temp = getSESS($code->ssid);
 		array_push($data, $temp);
@@ -172,6 +173,6 @@ else {
 if ( empty($code->mode) ) {
 	$code->mode = 'none';
 }
-echo json_encode($code);
+echo 'session('.json_encode($code).');';
 exit;
 ?>
