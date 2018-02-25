@@ -172,7 +172,7 @@
 
 * 请求示例(url访问)
 	
-	[`https://sess.covear.top/sess.php?ssid=u5l6pqvgpo1o43v8ksud6pq8me`](https://sess.covear.top/sess.php?ssid=u5l6pqvgpo1o43v8ksud6pq8me?_blank)
+	[`https://sess.covear.top/sess.php?ssid=u5l6pqvgpo1o43v8ksud6pq8me`](https://sess.covear.top/sess.php?ssid=u5l6pqvgpo1o43v8ksud6pq8me)
 
 
 * 正常返回示例
@@ -256,7 +256,7 @@
 
 * 请求示例(url访问)
 	
-	[`https://sess.covear.top/sess.php?ssid=43p7oreo1mrumraj7d9oro7u48&reset=tms_phone&old=18173304062&new=12345678901&auth=001000001000`](https://sess.covear.top/sess.php?ssid=43p7oreo1mrumraj7d9oro7u48&reset=tms_phone&old=18173304062&new=12345678901&auth=001000001000?_blank)
+	[`https://sess.covear.top/sess.php?ssid=43p7oreo1mrumraj7d9oro7u48&reset=tms_phone&old=18173304062&new=12345678901&auth=001000001000`](https://sess.covear.top/sess.php?ssid=43p7oreo1mrumraj7d9oro7u48&reset=tms_phone&old=18173304062&new=12345678901&auth=001000001000)
 
 
 * 正常返回示例
@@ -362,7 +362,7 @@
 
 * 请求示例(url访问)
 	
-	[`https://sess.covear.top/sess.php?where=tms_sid&whval=201700000003`](https://sess.covear.top/sess.php?where=tms_sid&whval=201700000003?_blank)
+	[`https://sess.covear.top/sess.php?where=tms_sid&whval=201700000003`](https://sess.covear.top/sess.php?where=tms_sid&whval=201700000003)
 
 
 * 正常返回示例
