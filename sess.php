@@ -155,6 +155,7 @@ function getSESS($ssid) {
 		}
 		$res[$key] = $value;
 	}
+	$res['update_time'] = date('Y-m-d H:i:s', fileatime($filename));
 	$res['session_id'] = $ssid;
 	return $res;
 }

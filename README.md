@@ -170,6 +170,24 @@
 ?>
 ```
 
+* 请求示例(Java)
+
+	```java
+	public static void main(String[] args) {
+	    String host = "https://sess.covear.top";
+	    String path = "/sess.php";
+	    String method = "GET";
+	    Map<String, String> querys = new HashMap<String, String>();
+	    querys.put("ssid", "u5l6pqvgpo1o43v8ksud6pq8me");
+	    try {
+	    	HttpResponse response = HttpUtils.doGet(host, path, method, querys);
+	    	System.out.println(response.toString());
+	    } catch (Exception e) {
+	    	e.printStackTrace();
+	    }
+	}
+	```
+
 * 请求示例(url访问)
 	
 	[`https://sess.covear.top/sess.php?ssid=u5l6pqvgpo1o43v8ksud6pq8me`](https://sess.covear.top/sess.php?ssid=u5l6pqvgpo1o43v8ksud6pq8me)
