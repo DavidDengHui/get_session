@@ -68,78 +68,78 @@
 
 	<table>
 	<tr>
-		<th style="text-align:center;text-valign:center;">优先级</th>
-		<th style="text-align:center;text-valign:center;">名称</th>
-		<th style="text-align:center;text-valign:center;">类型</th>
-		<th style="text-align:center;text-valign:center;" colspan="3">组合</th>
+		<th style="text-align:center;">优先级</th>
+		<th style="text-align:center;">名称</th>
+		<th style="text-align:center;">类型</th>
+		<th style="text-align:center;" colspan="3">组合</th>
 	</tr>
 	<tr>
-		<td style="text-align:center;text-valign:center;">1</td>
-		<td style="text-align:center;text-valign:center;">ssid</td>
-		<td style="text-align:center;text-valign:center;">string</td>
-		<td style="text-align:center;text-valign:center;">√</td>
-		<td style="text-align:center;text-valign:center;">√</td>
-		<td style="text-align:center;text-valign:center;"></td>
+		<td style="text-align:center;">1</td>
+		<td style="text-align:center;">ssid</td>
+		<td style="text-align:center;">string</td>
+		<td style="text-align:center;">√</td>
+		<td style="text-align:center;">√</td>
+		<td style="text-align:center;"></td>
 	</tr>
 	<tr>
-		<td style="text-align:center;text-valign:center;">2</td>
-		<td style="text-align:center;text-valign:center;">reset</td>
-		<td style="text-align:center;text-valign:center;">string</td>
-		<td style="text-align:center;text-valign:center;"></td>
-		<td style="text-align:center;text-valign:center;">√</td>
-		<td style="text-align:center;text-valign:center;"></td>
+		<td style="text-align:center;">2</td>
+		<td style="text-align:center;">reset</td>
+		<td style="text-align:center;">string</td>
+		<td style="text-align:center;"></td>
+		<td style="text-align:center;">√</td>
+		<td style="text-align:center;"></td>
 	</tr>
 	<tr>
-		<td style="text-align:center;text-valign:center;">2</td>
-		<td style="text-align:center;text-valign:center;">auth</td>
-		<td style="text-align:center;text-valign:center;">string</td>
-		<td style="text-align:center;text-valign:center;"></td>
-		<td style="text-align:center;text-valign:center;">√</td>
-		<td style="text-align:center;text-valign:center;"></td>
+		<td style="text-align:center;">2</td>
+		<td style="text-align:center;">auth</td>
+		<td style="text-align:center;">string</td>
+		<td style="text-align:center;"></td>
+		<td style="text-align:center;">√</td>
+		<td style="text-align:center;"></td>
 	</tr>
 	<tr>
-		<td style="text-align:center;text-valign:center;">2</td>
-		<td style="text-align:center;text-valign:center;">old</td>
-		<td style="text-align:center;text-valign:center;">string</td>
-		<td style="text-align:center;text-valign:center;"></td>
-		<td style="text-align:center;text-valign:center;">√</td>
-		<td style="text-align:center;text-valign:center;"></td>
+		<td style="text-align:center;">2</td>
+		<td style="text-align:center;">old</td>
+		<td style="text-align:center;">string</td>
+		<td style="text-align:center;"></td>
+		<td style="text-align:center;">√</td>
+		<td style="text-align:center;"></td>
 	</tr>
 	<tr>
-		<td style="text-align:center;text-valign:center;">2</td>
-		<td style="text-align:center;text-valign:center;">new</td>
-		<td style="text-align:center;text-valign:center;">string</td>
-		<td style="text-align:center;text-valign:center;"></td>
-		<td style="text-align:center;text-valign:center;">√</td>
-		<td style="text-align:center;text-valign:center;"></td>
+		<td style="text-align:center;">2</td>
+		<td style="text-align:center;">new</td>
+		<td style="text-align:center;">string</td>
+		<td style="text-align:center;"></td>
+		<td style="text-align:center;">√</td>
+		<td style="text-align:center;"></td>
 	</tr>
 	<tr>
-		<td style="text-align:center;text-valign:center;">3</td>
-		<td style="text-align:center;text-valign:center;">where</td>
-		<td style="text-align:center;text-valign:center;">string</td>
-		<td style="text-align:center;text-valign:center;"></td>
-		<td style="text-align:center;text-valign:center;"></td>
-		<td style="text-align:center;text-valign:center;">√</td>
+		<td style="text-align:center;">3</td>
+		<td style="text-align:center;">where</td>
+		<td style="text-align:center;">string</td>
+		<td style="text-align:center;"></td>
+		<td style="text-align:center;"></td>
+		<td style="text-align:center;">√</td>
 	</tr>
 	<tr>
-		<td style="text-align:center;text-valign:center;">3</td>
-		<td style="text-align:center;text-valign:center;">whval</td>
-		<td style="text-align:center;text-valign:center;">string</td>
-		<td style="text-align:center;text-valign:center;"></td>
-		<td style="text-align:center;text-valign:center;"></td>
-		<td style="text-align:center;text-valign:center;">√</td>
+		<td style="text-align:center;">3</td>
+		<td style="text-align:center;">whval</td>
+		<td style="text-align:center;">string</td>
+		<td style="text-align:center;"></td>
+		<td style="text-align:center;"></td>
+		<td style="text-align:center;">√</td>
 	</tr>
 	<tr>
-		<td style="text-align:center;text-valign:center;" colspan="3"><b>mode</b></td>
-		<td style="text-align:center;text-valign:center;">view</td>
-		<td style="text-align:center;text-valign:center;">reset</td>
-		<td style="text-align:center;text-valign:center;">search</td>
+		<td style="text-align:center;" colspan="3"><b>mode</b></td>
+		<td style="text-align:center;">view</td>
+		<td style="text-align:center;">reset</td>
+		<td style="text-align:center;">search</td>
 	</tr>
 	<tr>
-		<td style="text-align:center;text-valign:center;" colspan="3"><b>功能</b></td>
-		<td style="text-align:center;text-valign:center;">查看</td>
-		<td style="text-align:center;text-valign:center;">修改</td>
-		<td style="text-align:center;text-valign:center;">搜索</td>
+		<td style="text-align:center;" colspan="3"><b>功能</b></td>
+		<td style="text-align:center;">查看</td>
+		<td style="text-align:center;">修改</td>
+		<td style="text-align:center;">搜索</td>
 	</tr>
 	</table>
 
@@ -147,32 +147,32 @@
 
 * 请求示例(PHP)
 
-	```php
-	<?php
-		$host = "https://sess.covear.top"; //API的域名
-		$path = "/sess.php"; //请求文件地址
-		$method = "GET"; //请求方式
-		$ssid = "u5l6pqvgpo1o43v8ksud6pq8me" //要查看的session的sessionID
-		$querys = "ssid=".$ssid;
-		$url = $host . $path . "?" . $querys;
-		$curl = curl_init();
-		curl_setopt($curl, CURLOPT_CUSTOMREQUEST, $method);
-		curl_setopt($curl, CURLOPT_URL, $url);
-		curl_setopt($curl, CURLOPT_FAILONERROR, false);
-		curl_setopt($curl, CURLOPT_RETURNTRANSFER, true);
-		curl_setopt($curl, CURLOPT_HEADER, false);
-		if (1 == strpos("$".$host, "https://")) {
-			curl_setopt($curl, CURLOPT_SSL_VERIFYPEER, false);
-			curl_setopt($curl, CURLOPT_SSL_VERIFYHOST, false);
-		}
-		$data = curl_exec($curl); //获取返回的json数据
-		var_dump($data);
-	?>
-	```
+```php
+<?php
+	$host = "https://sess.covear.top"; //API的域名
+	$path = "/sess.php"; //请求文件地址
+	$method = "GET"; //请求方式
+	$ssid = "u5l6pqvgpo1o43v8ksud6pq8me" //要查看的session的sessionID
+	$querys = "ssid=".$ssid;
+	$url = $host . $path . "?" . $querys;
+	$curl = curl_init();
+	curl_setopt($curl, CURLOPT_CUSTOMREQUEST, $method);
+	curl_setopt($curl, CURLOPT_URL, $url);
+	curl_setopt($curl, CURLOPT_FAILONERROR, false);
+	curl_setopt($curl, CURLOPT_RETURNTRANSFER, true);
+	curl_setopt($curl, CURLOPT_HEADER, false);
+	if (1 == strpos("$".$host, "https://")) {
+		curl_setopt($curl, CURLOPT_SSL_VERIFYPEER, false);
+		curl_setopt($curl, CURLOPT_SSL_VERIFYHOST, false);
+	}
+	$data = curl_exec($curl); //获取返回的json数据
+	var_dump($data);
+?>
+```
 
 * 请求示例(url访问)
 	
-	[`https://sess.covear.top/sess.php?ssid=u5l6pqvgpo1o43v8ksud6pq8me`](https://sess.covear.top/sess.php?ssid=u5l6pqvgpo1o43v8ksud6pq8me)
+	[`https://sess.covear.top/sess.php?ssid=u5l6pqvgpo1o43v8ksud6pq8me`](https://sess.covear.top/sess.php?ssid=u5l6pqvgpo1o43v8ksud6pq8me?_blank)
 
 
 * 正常返回示例
@@ -227,9 +227,219 @@
 
 ## 强行更改session的指定部分内容
 
+```php
+<?php
+	$host = "https://sess.covear.top"; //API的域名
+	$path = "/sess.php"; //请求文件地址
+	$method = "GET"; //请求方式
+	$ssid = "43p7oreo1mrumraj7d9oro7u48" //要修改的session的sessionID
+	$reset = "tms_phone" //要修改的键值
+	$old = "18173304062"; //要修改的内容
+	$new = "12345678901"; //替换的新内容
+	$auth = "001000001000"; //源码中设置的鉴权密钥
+	$querys = "ssid=".$ssid."&reset=".$reset."&old=".$old."&new=".$new."&auth=".$auth;
+	$url = $host . $path . "?" . $querys;
+	$curl = curl_init();
+	curl_setopt($curl, CURLOPT_CUSTOMREQUEST, $method);
+	curl_setopt($curl, CURLOPT_URL, $url);
+	curl_setopt($curl, CURLOPT_FAILONERROR, false);
+	curl_setopt($curl, CURLOPT_RETURNTRANSFER, true);
+	curl_setopt($curl, CURLOPT_HEADER, false);
+	if (1 == strpos("$".$host, "https://")) {
+		curl_setopt($curl, CURLOPT_SSL_VERIFYPEER, false);
+		curl_setopt($curl, CURLOPT_SSL_VERIFYHOST, false);
+	}
+	$data = curl_exec($curl); //获取返回的json数据
+	var_dump($data);
+?>
+```
 
+* 请求示例(url访问)
+	
+	[`https://sess.covear.top/sess.php?ssid=43p7oreo1mrumraj7d9oro7u48&reset=tms_phone&old=18173304062&new=12345678901&auth=001000001000`](https://sess.covear.top/sess.php?ssid=43p7oreo1mrumraj7d9oro7u48&reset=tms_phone&old=18173304062&new=12345678901&auth=001000001000?_blank)
+
+
+* 正常返回示例
+
+	```json
+	{
+		"status": "success",
+		"mode": "reset",
+		"ssid": "43p7oreo1mrumraj7d9oro7u48",
+		"where": {
+			"key": null,
+			"value": null
+		},
+		"reset": {
+			"key": "tms_phone",
+			"old": "18173304062",
+			"new": "12345678901"
+		},
+		"data": {
+			"0": {
+				"tms_sid": [
+					"201700000003"
+				],
+				"tms_name": [
+					"Test_miandmo"
+				],
+				"tms_college": [
+					"铁道通信与信号学院"
+				],
+				"tms_class": [
+					"铁道通信171班"
+				],
+				"tms_auth": [
+					"7"
+				],
+				"tms_depart": [
+					"0"
+				],
+				"tms_head": [
+					"https://tools.hnrwi.cn/images/default_head.png"
+				],
+				"tms_phone": [
+					"12345678901"
+				],
+				"history": [
+					"https://tools.hnrwi.cn/",
+					"https://tools.hnrwi.cn/google.php"
+				],
+				"session_id": "43p7oreo1mrumraj7d9oro7u48"
+			},
+			"size": 1
+		}
+	}
+	```
+
+* 错误返回示例
+
+	```json
+	{
+		"status": "error",
+		"mode": "reset",
+		"ssid": "43p7oreo1mrumraj7d9oro7u48",
+		"where": {
+			"key": null,
+			"value": null
+		},
+		"reset": {
+			"key": "tms_phone",
+			"old": "18173304062",
+			"new": "12345678901"
+		},
+		"data": {
+			"size": 0
+		}
+	}
+	```
 
 ## 根据键名和键值搜索session内容
 
+```php
+<?php
+	$host = "https://sess.covear.top"; //API的域名
+	$path = "/sess.php"; //请求文件地址
+	$method = "GET"; //请求方式
+	$where = "tms_sid"; //要搜索的键名
+	$whval = "201700000003"; //要搜索的键值
+	$querys = "where=" . $where . '&whval=' . $whval;
+	$url = $host . $path . "?" . $querys;
+	$curl = curl_init();
+	curl_setopt($curl, CURLOPT_CUSTOMREQUEST, $method);
+	curl_setopt($curl, CURLOPT_URL, $url);
+	curl_setopt($curl, CURLOPT_FAILONERROR, false);
+	curl_setopt($curl, CURLOPT_RETURNTRANSFER, true);
+	curl_setopt($curl, CURLOPT_HEADER, false);
+	if (1 == strpos("\$" . $host, "https://")) {
+		curl_setopt($curl, CURLOPT_SSL_VERIFYPEER, false);
+		curl_setopt($curl, CURLOPT_SSL_VERIFYHOST, false);
+	}
+	$data = curl_exec($curl); //获取返回的json数据
+	var_dump($data);
+?>
+```
 
-Copyright © 2017-2018 David Deng
+* 请求示例(url访问)
+	
+	[`https://sess.covear.top/sess.php?where=tms_sid&whval=201700000003`](https://sess.covear.top/sess.php?where=tms_sid&whval=201700000003?_blank)
+
+
+* 正常返回示例
+
+	```json
+	{
+		"status": "success",
+		"mode": "search",
+		"ssid": null,
+		"where": {
+			"key": "tms_sid",
+			"value": "201700000003"
+		},
+		"reset": {
+			"key": null,
+			"old": null,
+			"new": null
+		},
+		"data": {
+			"0": {
+				"tms_sid": [
+					"201700000003"
+				],
+				"tms_name": [
+					"Test_miandmo"
+				],
+				"tms_college": [
+					"铁道通信与信号学院"
+				],
+				"tms_class": [
+					"铁道通信171班"
+				],
+				"tms_auth": [
+					"7"
+				],
+				"tms_depart": [
+					"0"
+				],
+				"tms_head": [
+					"https://tools.hnrwi.cn/images/default_head.png"
+				],
+				"tms_phone": [
+					"18173304062"
+				],
+				"history": [
+					"https://tools.hnrwi.cn/",
+					"https://tools.hnrwi.cn/google.php"
+				],
+				"session_id": "43p7oreo1mrumraj7d9oro7u48"
+			},
+			"size": 1
+		}
+	}
+	```
+
+* 错误返回示例
+
+	```json
+	{
+		"status": "error",
+		"mode": "search",
+		"ssid": null,
+		"where": {
+			"key": "tms_sid",
+			"value": "201700000003"
+		},
+		"reset": {
+			"key": null,
+			"old": null,
+			"new": null
+		},
+		"data": {
+			"size": 0
+		}
+	}
+	```
+
+-----
+
+___Copyright © 2018 David Deng___
