@@ -56,17 +56,89 @@
 
 * 所有请求参数组合
 
-|  优先级  |  名称  |  类型  ||         组合         ||
-| :-----: | :----: | :---: | :----: | :----: | :----: |
-|   1   | ssid   | string  |   √    |        |        |
-|   2   | reset  | string  |        |   √    |        |
-|   2   | auth   | string  |        |   √    |        |
-|   2   | old    | string  |        |   √    |        |
-|   2   | new    | string  |        |   √    |        |
-|   3   | where  | string  |        |        |   √    |
-|   3   | whval  | string  |        |        |   √    |
-|| mode                   || view   | reset  | search |
-|| 功能                   ||  查看   | 修改   | 搜索   |
+	<style type="text/css">
+	.tg  {border-collapse:collapse;border-spacing:0;}
+	.tg td{font-family:Arial, sans-serif;font-size:14px;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;}
+	.tg th{font-family:Arial, sans-serif;font-size:14px;font-weight:normal;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;}
+	.tg .tg-baqh{text-align:center;vertical-align:top}
+	.tg .tg-amwm{font-weight:bold;text-align:center;vertical-align:top}
+	</style>
+	<table class="tg">
+	<tr>
+		<th class="tg-amwm">优先级</th>
+		<th class="tg-amwm">名称</th>
+		<th class="tg-amwm">类型</th>
+		<th class="tg-amwm" colspan="3">组合</th>
+	</tr>
+	<tr>
+		<td class="tg-baqh">1</td>
+		<td class="tg-baqh">ssid</td>
+		<td class="tg-baqh">string</td>
+		<td class="tg-baqh">√</td>
+		<td class="tg-baqh">√</td>
+		<td class="tg-baqh"></td>
+	</tr>
+	<tr>
+		<td class="tg-baqh">2</td>
+		<td class="tg-baqh">reset</td>
+		<td class="tg-baqh">string</td>
+		<td class="tg-baqh"></td>
+		<td class="tg-baqh">√</td>
+		<td class="tg-baqh"></td>
+	</tr>
+	<tr>
+		<td class="tg-baqh">2</td>
+		<td class="tg-baqh">auth</td>
+		<td class="tg-baqh">string</td>
+		<td class="tg-baqh"></td>
+		<td class="tg-baqh">√</td>
+		<td class="tg-baqh"></td>
+	</tr>
+	<tr>
+		<td class="tg-baqh">2</td>
+		<td class="tg-baqh">old</td>
+		<td class="tg-baqh">string</td>
+		<td class="tg-baqh"></td>
+		<td class="tg-baqh">√</td>
+		<td class="tg-baqh"></td>
+	</tr>
+	<tr>
+		<td class="tg-baqh">2</td>
+		<td class="tg-baqh">new</td>
+		<td class="tg-baqh">string</td>
+		<td class="tg-baqh"></td>
+		<td class="tg-baqh">√</td>
+		<td class="tg-baqh"></td>
+	</tr>
+	<tr>
+		<td class="tg-baqh">3</td>
+		<td class="tg-baqh">where</td>
+		<td class="tg-baqh">string</td>
+		<td class="tg-baqh"></td>
+		<td class="tg-baqh"></td>
+		<td class="tg-baqh">√</td>
+	</tr>
+	<tr>
+		<td class="tg-baqh">3</td>
+		<td class="tg-baqh">whval</td>
+		<td class="tg-baqh">string</td>
+		<td class="tg-baqh"></td>
+		<td class="tg-baqh"></td>
+		<td class="tg-baqh">√</td>
+	</tr>
+	<tr>
+		<td class="tg-amwm" colspan="3">mode</td>
+		<td class="tg-baqh">view</td>
+		<td class="tg-baqh">reset</td>
+		<td class="tg-baqh">search</td>
+	</tr>
+	<tr>
+		<td class="tg-amwm" colspan="3">功能</td>
+		<td class="tg-baqh">查看</td>
+		<td class="tg-baqh">修改</td>
+		<td class="tg-baqh">搜索</td>
+	</tr>
+	</table>
 
 ## 根据sessionID获取session内容
 
