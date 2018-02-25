@@ -1,11 +1,12 @@
 # get_session
 
-这是获取储存在服务器SESSION内容的API
-使用PHP编写，现可完成三种功能——
+这是获取储存在服务器SESSION内容的API，使用PHP编写
+
+-----
 
 # API安装方式
 
-主机记本需求：_`PHP`_
+运行基本环境：_`PHP`_
 
 * Linux主机
 
@@ -41,6 +42,8 @@
 
 至此完成安装，可通过域名访问 _`sess.php`_
 
+-----
+
 # API使用方式
 
 * 调用地址：http(s)://{domain}/sess.php
@@ -51,14 +54,97 @@
 
 * 返回类型：`JSON`
 
+* 所有请求参数组合
+
+<table style="text-align:center;">
+	<tr>
+		<td>优先级</td>
+		<td>名称</td>
+		<td>类型</td>
+		<td></td>
+		<td>组合</td>
+		<td></td>
+	</tr>
+	<tr>
+		<td>1</td>
+		<td>ssid</td>
+		<td>string</td>
+		<td>√</td>
+		<td>√</td>
+		<td></td>
+	</tr>
+	<tr>
+		<td>2</td>
+		<td>reset</td>
+		<td>string</td>
+		<td></td>
+		<td>√</td>
+		<td></td>
+	</tr>
+	<tr>
+		<td>2</td>
+		<td>auth</td>
+		<td>string</td>
+		<td></td>
+		<td>√</td>
+		<td></td>
+	</tr>
+	<tr>
+		<td>2</td>
+		<td>old</td>
+		<td>string</td>
+		<td></td>
+		<td>√</td>
+		<td></td>
+	</tr>
+	<tr>
+		<td>2</td>
+		<td>new</td>
+		<td>string</td>
+		<td></td>
+		<td>√</td>
+		<td></td>
+	</tr>
+	<tr>
+		<td>3</td>
+		<td>where</td>
+		<td>string</td>
+		<td></td>
+		<td></td>
+		<td>√</td>
+	</tr>
+	<tr>
+		<td>3</td>
+		<td>whval</td>
+		<td>string</td>
+		<td></td>
+		<td></td>
+		<td>√</td>
+	</tr>
+	<tr>
+		<td></td>
+		<td>mode</td>
+		<td></td>
+		<td>view</td>
+		<td>reset</td>
+		<td>search</td>
+	</tr>
+	<tr>
+		<td></td>
+		<td>功能</td>
+		<td></td>
+		<td>查看</td>
+		<td>修改</td>
+		<td>搜索</td>
+	</tr>
+	<tr>
+		<td></td>
+	</tr>
+</table>
+
+
 ## 根据sessionID获取session内容
 
->> * 请求参数
->>
->> |  名称  |  类型  |  描述  |
->> | :-----: | :-----: | :-----: |
->> | ssid  |  string  | 要查询的sessionID  |
->
 > * 请求示例(PHP)
 >
 > ```PHP
